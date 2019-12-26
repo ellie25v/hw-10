@@ -240,13 +240,14 @@ body {
     padding-top: 64px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-between;
+    justify-content: space-between;
     min-height: 150px;
 }
 .services__list-item {
     width: 352px;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 .services__list-item::before {
     display: inline-block;
@@ -257,6 +258,7 @@ body {
     position: absolute;
     top: 0;
     left: 6px;
+    fill: var(--main-color);
 }
 .services__list-item:first-child::before {
     background-image: url("./icons/icon-alarm.svg");
@@ -276,14 +278,12 @@ body {
 .services__list-item:last-child::before {
     background-image: url("./icons/digital.svg");
 }
-.services__list-item:nth-child(n+3){
-    padding-top: 90px;
+.services__list-item:nth-child(n+4){
+    margin-top: 90px;
 }
 .services__list-text {
-    width: 300px;
-    position: absolute;
-    right: 0;
-    padding-left: 6px;
+    width: 270px;
+    text-align: left;
 }
 .services__list-descr {
     font-size: 15px;
