@@ -121,8 +121,6 @@ body {
 .container {
     width: 1202px;
     margin: 0 auto;
-    /* display: flex; */
-    
 }
 .main-header{
     position: absolute;
@@ -147,8 +145,13 @@ body {
     font-weight: 700;
     font-family: var(--main-font);
 }
-.icons__list-item{
-    display: inline;
+.icons__list{
+    width: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
 }
 .main-nav__list-link:after{
     content: "";
@@ -389,8 +392,10 @@ body {
     border-right: 1px solid var(--pink-color);
 }
 .overlay__list-icon{
-    width: 36px;
-    height: 36px;
+    transform: translateY(50%);
+    object-position: center;
+    width: 30px;
+    height: 30px;
     fill: var(--pink-color);
 }
 .overlay__list-icon:hover{
