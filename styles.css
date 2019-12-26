@@ -196,7 +196,7 @@ body {
     padding-top: 200px;
     background-image: linear-gradient(to top, rgba(251, 227, 137, 0.9), rgba(243, 129, 129, 0.9)), url('./img/bg-min.png');
     background-position: center;
-    object-fit: cover;
+    background-size: cover;
     min-height: 1000px;
     text-transform: uppercase;
     font-family: var(--main-font);
