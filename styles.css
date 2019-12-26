@@ -150,7 +150,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 36px;
 
 }
 .main-nav__list-link:after{
@@ -398,7 +398,7 @@ body {
     height: 30px;
     fill: var(--pink-color);
 }
-.overlay__list-icon:hover{
+.overlay__list-item:hover .overlay__list-icon{
     fill: white;
 }
 .team__list-item:hover .overlay {
