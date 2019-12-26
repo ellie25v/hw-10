@@ -1,0 +1,59 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --main-color: rgb(148, 225, 211);
+    --pink-color: rgb(243, 129, 129);
+    --yellow-color: rgb(251, 227, 137);
+    --h-font: 'Kaushan Script', cursive;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: var(--main-font);
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 1202px;
+    margin: 0 auto;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+}
