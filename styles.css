@@ -389,6 +389,8 @@ body {
     border-right: 1px solid var(--pink-color);
 }
 .overlay__list-icon{
+    width: 36px;
+    height: 36px;
     fill: var(--pink-color);
 }
 .overlay__list-icon:hover{
