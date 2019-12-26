@@ -130,14 +130,25 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
-.main-nav {
+.main-header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.main-menu{
+    min-width: 630px;
+    margin-top: 40px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.main-nav {
     min-height: 60px;
     font-weight: 700;
     font-family: var(--main-font);
+}
+.icons__list-item{
+    display: inline;
 }
 .main-nav__list-link:after{
     content: "";
@@ -473,6 +484,6 @@ body {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .bg-img {
-      background-image: linear-gradient(to top, rgba(251, 227, 137, 0.9), rgba(243, 129, 129, 0.9)), url('./img/bg@2x-min.png') no-repeat;
+      background-image: linear-gradient(to top, rgba(251, 227, 137, 0.9), rgba(243, 129, 129, 0.9)), url('./img/bg@2x-min.png');
     }
   }
